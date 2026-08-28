@@ -20,6 +20,6 @@ temperature = weather_data["current"]["temp_c"]
 weather_condition = weather_data["current"]["condition"]["text"]
 
 # Display the weather information
-print("City:", city)
-print("Temperature:", temperature, "°C")
-print("Weather condition:", weather_condition)
+print("The city is", city)
+print("The current temperature in the city is", temperature, "°C")
+print("The weather condition in the city is", weather_condition)
